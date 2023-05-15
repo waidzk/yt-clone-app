@@ -18,9 +18,10 @@ const Navbar = () => (
     }}
   >
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
-      <h1 style={{ fontSize: 24, color: "#5B8FB9" }}>
+      <img src={logo} alt="logo" height={45}/>
+      {/* <h1 style={{ fontSize: 24, color: "#5B8FB9" }}>
         MOVEETV
-      </h1>
+      </h1> */}
     </Link>
     <SearchBar />
   </Stack>
